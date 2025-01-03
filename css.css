@@ -1,0 +1,26 @@
+td,th,table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table{
+    width: 1000px
+}
+
+th{
+    text-align: center;
+    padding: 10px;
+
+}
+
+td {
+    text-align: center;
+}
+
+.container {
+   
+}
+
+#butt {
+   border: 0cap;
+}
