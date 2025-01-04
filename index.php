@@ -7,8 +7,10 @@
     <link rel="stylesheet" href="css.css">
 </head>
 <body>
-    <button>ADD</button>
-    <div class="container">
+    
+    
+    <div class="tableCon">
+    <a class="addBtn btn" href="#" role="button">+</a>
     <table class="table">
         <thead>
                 <tr>
@@ -53,7 +55,11 @@
                     <td>$contact</td>
                     <td>$bday</td>
                     <td>$position</td>
-                    <td><button>EDIT</button> <button>DELETE</button></td>
+                    <td>
+                    <a class='removeBtn btn' href=deleteData.php?id=$row[ID] role='button'>Delete</a>
+                    <a class='editBtn btn' href='#'?id=$row[ID] role='button'>Edit</a>
+                    
+                    </td>
                     </tr>";
 
                 }
