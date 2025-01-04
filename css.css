@@ -1,3 +1,16 @@
+ body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+.tableCon {
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+}
+
 td,th,table {
     border: 1px solid black;
     border-collapse: collapse;
@@ -17,10 +30,27 @@ td {
     text-align: center;
 }
 
-.container {
-   
+.btn {
+    border: 1px black solid;
+    padding: 5px;
+    border-radius: 7px;
+
 }
 
-#butt {
-   border: 0cap;
+a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    
+}
+
+
+.removeBtn{
+    background-color: rgb(227, 26, 26);
+}
+
+.addBtn {
+    width:30px;
+    margin-bottom:7px ;
+
 }
