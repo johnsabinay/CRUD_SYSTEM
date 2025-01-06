@@ -4,13 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CRUD SYSTEM</title>
-    <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="stylesheet.css">
 </head>
 <body>
     
-    
+    <div class="pHeader">
+        <h1>CRUD SYSTEM</h1>
+    </div>
+    <div class="pBody">
     <div class="tableCon">
-    <a class="addBtn btn" href="#" role="button">+</a>
+        <a class="addBtn btn" href="#" role="button">+</a>
     <table class="table">
         <thead>
                 <tr>
@@ -73,5 +76,8 @@
         </thead>
     </table>
     </div>
+    </div>
+<div class="pFooter"></div>
+    
 </body>
 </html>

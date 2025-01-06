@@ -1,0 +1,57 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+
+
+}
+.pHeader{
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+}
+.pBody{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 45px;
+}
+.tableCon{
+    display: flex;
+    flex-direction: column;
+}
+.addBtn {
+    align-self: flex-end;
+    font-weight: 900;
+    width: 30px;
+    margin-bottom: 7px;
+}
+table {
+    width: 1000px;
+}
+th{
+    text-align: center;
+    padding: 10px;
+}
+td{
+    text-align: center;
+}
+td,th,table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+
+
+
+.btn{
+    border: 1px black solid;
+    padding: 5px;
+    border-radius: 7px;
+}
