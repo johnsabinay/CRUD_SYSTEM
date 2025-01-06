@@ -1,6 +1,8 @@
 body {
     display: flex;
     flex-direction: column;
+    flex: 1 1 0;
+    background-color: aliceblue;
 }
 a{
     text-decoration: none;
@@ -14,13 +16,15 @@ a{
     color: aliceblue;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .pBody{
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    margin: 45px;
+    margin-top: 50px;
+    
 }
 .tableCon{
     display: flex;
@@ -30,7 +34,7 @@ a{
     align-self: flex-end;
     font-weight: 900;
     width: 30px;
-    margin-bottom: 7px;
+    margin-bottom: 5px;
 }
 table {
     width: 1000px;
@@ -38,20 +42,37 @@ table {
 th{
     text-align: center;
     padding: 10px;
+    background-color: black;
+    color: aliceblue;
+}
+#idHead{
+    background-color:aliceblue;
+    color: black;
 }
 td{
     text-align: center;
 }
 td,th,table {
-    border: 1px solid black;
+    border: 1px solid rgb(69, 69, 69);
     border-collapse: collapse;
 }
 
-
+.pFooter{
+    background-color: rgb(31, 31, 31);
+    color:whitesmoke;
+    margin-top: 300px;
+    font-size: 10px;
+   text-align:  center;
+}
 
 
 .btn{
     border: 1px black solid;
     padding: 5px;
     border-radius: 7px;
+}
+
+.removeBtn{
+    background-color: black;
+    color: white;
 }
