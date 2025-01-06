@@ -5,9 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CRUD SYSTEM</title>
     <link rel="stylesheet" href="stylesheet.css">
+    <script>
+        function showForm() {
+            document.getElementById('addForm').style.display = 'block';
+        }
+    </script>
 </head>
 <body>
-    
     <div class="pHeader">
         <h1>CRUD SYSTEM</h1>
     </div>
@@ -51,7 +55,7 @@
 
 
                     echo "<tr>
-                    <th scope ='row'>$id</th>
+                    <th scope ='row' id='idHead'>$id</th>
                     <td>$name</td>
                     <td>$age</td>
                     <td>$email</td>
@@ -77,7 +81,9 @@
     </table>
     </div>
     </div>
-<div class="pFooter"></div>
+<div class="pFooter">
+    <p>Copyright ©John Lester Sabinay & Isaiah Alexei Lumitao</p>
+</div>
     
 </body>
 </html>
