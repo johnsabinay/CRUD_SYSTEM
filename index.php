@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CRUD SYSTEM</title>
-    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="css.css">
 </head>
 <body>
-    <div class="pHeader">
-        <h1>CRUD SYSTEM</h1>
+     <div class="pHeader">
+     <a id="header" href="index.php">CRUD SYSTEM</a>
     </div>
     <div class="pBody">
     <div class="tableCon">
@@ -58,7 +58,7 @@
                     <td>$bday</td>
                     <td>$position</td>
                     <td>
-                    <a class='removeBtn btn' href=deleteData.php?id=$row[ID] role='button'>Delete</a>
+                    <a class='removeBtn btn' href='delete.php?id=$row[ID]'>Delete</a>
                     <a class='editBtn btn' href='#'?id=$row[ID] role='button'>Edit</a>
                     
                     </td>
