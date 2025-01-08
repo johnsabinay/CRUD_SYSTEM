@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CRUD SYSTEM</title>
-    <link rel="stylesheet" href="css.css">
+    <title>EMPLOYEE MANAGE SYSTEM</title>
+    <link rel="stylesheet" href="stylesheet.css">
 </head>
 <body>
      <div class="pHeader">
-     <a id="header" href="index.php">CRUD SYSTEM</a>
+     <a id="header" href="index.php">EMPLOYEE MANAGE SYSTEM</a>
     </div>
     <div class="pBody">
     <div class="tableCon">
@@ -59,7 +59,7 @@
                     <td>$position</td>
                     <td>
                     <a class='removeBtn btn' href='delete.php?id=$row[ID]'>Delete</a>
-                    <a class='editBtn btn' href='#'?id=$row[ID] role='button'>Edit</a>
+                    <a class='editBtn btn' href='update.php?id=$row[ID]'>Edit</a>
                     
                     </td>
                     </tr>";
@@ -71,7 +71,7 @@
     </div>
     </div>
 <div class="pFooter">
-    <p>Copyright ©John Lester Sabinay & Isaiah Alexei Lumitao</p>
+    <p>Copyright © BSIT 4-A | CRUD SYSTEM</p>
 </div>
     
 </body>

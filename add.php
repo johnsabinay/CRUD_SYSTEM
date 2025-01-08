@@ -3,25 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>ADD EMPLOYEE</title>
+    <link rel="stylesheet"href="stylesheet.css">
 </head>
 <body>
+<div class="pHeader">
+<a id="header" href="index.php">EMPLOYEE MANAGE SYSTEM</a>
+    </div>
+    <div class="pBody">
 <div id="addFormCon">
-        <form action="add_employee.php" method="post" class="addForm">
+        <div class="addHeader">ADD EMPLOYEE</div>
+        <form action="add_employee.php" method="post" class="addForm" autocomplete="off">
         <label>Name</label>
-            <input type="text" name="name" placeholder="Name" required><br>
+            <input type="text" name="name" placeholder="eg. Juan Dela Cruz" required>
             <label>Age</label>
-            <input type="number" name="age" placeholder="Age" required><br>
+            <input type="text" name="age" placeholder="eg. 21" required>
             <label>Email</label>
-            <input type="email" name="email" placeholder="Email" required><br>
+            <input type="email" name="email" placeholder="eg. juandelax@example.com" required>
             <label>Contact No.</label>
-            <input type="text" name="contact" placeholder="Contact No" required><br>
+            <input type="text" name="contact" placeholder="eg. 0912345678" required>
             <label>Birthdate</label>
-            <input type="date" name="bday" placeholder="Birthdate" required><br>
+            <input type="date" name="bday" placeholder="Birthdate" required>
             <label>Position</label>
-            <input type="text" name="position" placeholder="Position" required><br>
+            <input type="text" name="position" placeholder="Waiter" required>
             <button type="submit" class="submitBtn">Submit</button>
+            <a href="index.php" class="backBtn">Back</a>
         </form>
     </div>
+    </div>
+    <div class="pFooter">
+    <p>Copyright © BSIT 4-A | CRUD SYSTEM</p>
+</div>
 </body>
 </html>
