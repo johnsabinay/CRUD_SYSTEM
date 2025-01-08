@@ -5,11 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CRUD SYSTEM</title>
     <link rel="stylesheet" href="stylesheet.css">
-    <script>
-        function showForm() {
-            document.getElementById('addForm').style.display = 'block';
-        }
-    </script>
 </head>
 <body>
     <div class="pHeader">
@@ -17,7 +12,7 @@
     </div>
     <div class="pBody">
     <div class="tableCon">
-        <a class="addBtn btn" href="#" role="button">+</a>
+    <a class='addBtn' href="add.php" role="button">+</a>
     <table class="table">
         <thead>
                 <tr>
@@ -71,12 +66,6 @@
 
                 }
                 ?>
-
-
-
-
-
-
         </thead>
     </table>
     </div>
